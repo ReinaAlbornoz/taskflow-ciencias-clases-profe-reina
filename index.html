@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Clases de la Profe Reina - TaskFlow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Clases de la Profe Reina</h1>
+            <p>Plataforma de Desafíos de Ciencias - 8° Básico</p>
+        </header>
+
+        <div class="profe-tips">
+            <strong>💡 Tip de la Profe Reina:</strong>
+            <span id="tip-text">Recuerda que la mitocondria es como la batería de la célula.</span>
+        </div>
+
+        <section class="form-section">
+            <form id="task-form">
+                <input type="text" id="task-input" placeholder="Nombre del desafío o tarea" required>
+                <input type="date" id="task-date" required>
+                <button type="submit" id="add-btn">Asignar Desafío</button>
+            </form>
+        </section>
+
+        <div id="notification" class="hidden"></div>
+
+        <main>
+            <h3>Lista de Desafíos y Entregas</h3>
+            <ul id="task-list"></ul>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+Informe Técnico: Proyecto TaskFlow - Clases de la Profe Reina
+1. Introducción
+Este proyecto es una aplicación web diseñada para que los estudiantes de 8° básico puedan visualizar sus desafíos de Ciencias y conocer el tiempo restante para sus entregas. Se construyó siguiendo los requerimientos del Módulo 4 de Alkemy, utilizando JavaScript moderno y principios de programación profesional.
+
+2. Explicación de los Componentes Técnicos
+A. Programación Orientada a Objetos (POO)
+El código se organiza en dos clases principales:
+
+Clase Tarea: Define la estructura de cada desafío (ID, descripción, estado y fecha límite).
+
+Clase GestorTareas: Contiene toda la lógica para agregar, eliminar y mostrar las tareas. Esto permite que el código sea ordenado y fácil de mantener.
+
+B. JavaScript Moderno (ES6+)
+Se aplicaron las últimas mejoras del lenguaje para que el código sea eficiente:
+
+Let y Const: Para una gestión segura de las variables.
+
+Arrow Functions (=>): Para escribir funciones más limpias, especialmente dentro de los métodos del gestor.
+
+Template Literals: El uso de comillas invertidas (`) permitió insertar el código HTML de las tareas de forma dinámica y legible.
+
+C. Manejo de Asincronía
+Para cumplir con los requisitos de interactividad asíncrona, se implementaron dos funciones:
+
+Notificación con retardo: Al asignar un desafío, el sistema muestra un mensaje y espera 2 segundos (usando setTimeout) antes de renderizar la tarea en la lista.
+
+Temporizador: Se creó una lógica que resta la fecha actual de la fecha límite para mostrar mensajes dinámicos como "Te quedan X días".
+
+D. Persistencia y API externa
+LocalStorage: Las tareas se guardan en la memoria del navegador. Si el usuario cierra la pestaña y vuelve a entrar, sus desafíos siguen ahí.
+
+Fetch API: Se incluyó la estructura para conectar con una API externa (JSONPlaceholder) para simular la carga de datos desde un servidor, manejando posibles errores con bloques try/catch.
+
+3. Conclusión
+La aplicación "Clases de la Profe Reina" no solo cumple con la funcionalidad de gestionar tareas, sino que aplica una arquitectura escalable, manejo de eventos del DOM y una interfaz visual atractiva en tonos rosa y lila para mejorar la experiencia del usuario.
