@@ -1,8 +1,0 @@
-[12-03-2026, 7:17:25 p. m.] Acceso a la ruta: / - Método: GET
-[12-03-2026, 7:17:48 p. m.] Acceso a la ruta: / - Método: GET
-[12-03-2026, 7:20:12 p. m.] Acceso a la ruta: / - Método: GET
-[12-03-2026, 7:20:45 p. m.] Acceso a la ruta: /status - Método: GET
-[12-03-2026, 7:20:45 p. m.] Acceso a la ruta: /favicon.ico - Método: GET
-[12-03-2026, 7:24:59 p. m.] Acceso a la ruta: / - Método: GET
-[12-03-2026, 7:25:38 p. m.] Acceso a la ruta: /index.html - Método: GET
-[12-03-2026, 7:37:32 p. m.] Acceso a la ruta: /index.html - Método: GET
