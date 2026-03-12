@@ -1,0 +1,12 @@
+[
+  { "nombre": "Ana López", "peso": 55, "altura": 1.65, "imc": "20.20", "estado": "Peso normal" },
+  { "nombre": "Carlos Ruiz", "peso": 90, "altura": 1.75, "imc": "29.39", "estado": "Obeso" },
+  { "nombre": "Marta Gómez", "peso": 45, "altura": 1.60, "imc": "17.58", "estado": "Bajo peso" },
+  { "nombre": "José Pérez", "peso": 70, "altura": 1.70, "imc": "24.22", "estado": "Peso normal" },
+  { "nombre": "Lucía Fernández", "peso": 85, "altura": 1.68, "imc": "30.12", "estado": "Obeso" },
+  { "nombre": "Diego Torres", "peso": 62, "altura": 1.74, "imc": "20.48", "estado": "Peso normal" },
+  { "nombre": "Elena Cano", "peso": 48, "altura": 1.62, "imc": "18.29", "estado": "Bajo peso" },
+  { "nombre": "Pablo Sosa", "peso": 110, "altura": 1.80, "imc": "33.95", "estado": "Obeso" },
+  { "nombre": "Rosa Méndez", "peso": 58, "altura": 1.60, "imc": "22.66", "estado": "Peso normal" },
+  { "nombre": "Luis Paez", "peso": 78, "altura": 1.72, "imc": "26.37", "estado": "Obeso" }
+]
