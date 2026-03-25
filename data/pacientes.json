@@ -1,0 +1,14 @@
+[
+  {
+    "id": "001",
+    "nombre": "Ana Garcia",
+    "estado": "Estable",
+    "especialidad": "Cardiologia"
+  },
+  {
+    "id": "002",
+    "nombre": "Luis Pérez",
+    "estado": "Critico",
+    "especialidad": "Pediatria"
+  }
+]
